@@ -1,0 +1,103 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #9fb, #9b9b9b);
+}
+
+.container{
+  width: 450px;
+  padding: 30px;
+  justify-content: center;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+h1{
+  text-align: center;
+  color: black;
+  margin-bottom: 25px;
+}
+
+input{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  font-weight: bold;
+  border-radius: 8px;
+  font-size: 16px;
+  border: 1px solid black;
+  outline: none;
+}
+
+input:focus{
+  border-color: #9fb;
+}
+
+button{
+  width: 100px;
+  padding: 5px;
+  border: none;
+  border-radius: 8px;
+  background: #9fb;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+button:hover{
+  background-color: #0767b8;
+}
+
+#expenseList{
+  margin-top: 10px;
+}
+
+.expense{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background: #f1f2f6;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.expense-name{
+  font-weight: bold;
+}
+
+.expense-amount{
+  color: #0984e3;
+  font-weight: bold;
+}
+
+.delete-btn{
+width: auto;
+margin: 0;
+padding: 6px 10px;
+background: #e74c3c;
+font-size: 14px;
+}
+
+.delete-btn:hover{
+  background: #c0392b;
+}
+
+#total{
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 2px solid #ddd;
+  text-align: center;
+  color: #333;
+}
