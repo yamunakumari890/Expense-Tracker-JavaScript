@@ -31,7 +31,7 @@ A simple and responsive Expense Tracker built using HTML, CSS and JavaScript.
 
 ## 📸 Preview
 
-[Expense Tracker screenshot](assets/Screenshot.png)
+![Expense Tracker screenshot](assets/Screenshot.png)
 
 ## 👩‍💻 Author
 
